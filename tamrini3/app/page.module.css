@@ -1,0 +1,10 @@
+.container{
+    margin: auto;
+    width: 500px;
+    height: 200px;
+    background-color: blueviolet;
+}
+.container button{
+    padding: 20px;
+    margin: auto;
+}

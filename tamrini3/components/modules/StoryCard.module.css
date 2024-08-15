@@ -1,0 +1,69 @@
+
+.container {
+    position: relative;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    background: linear-gradient(
+      to right,
+      #833ab4,
+      #fd1d1d,
+      #fcb045,
+      #833ab4
+    );
+    background-size: 400% 400%;
+    animation: container 10s ease infinite;
+  }
+
+  @keyframes container {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .circle{
+    background-color: #fff;
+    position: relative;
+    top: 3.5px;
+    left: 3.5px;
+    width: 109px;
+    height: 109px;
+    border-radius: 50%;
+  }
+  .circle img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 4.5px;
+    left: 4.5px;
+  }
+
+  .videoModal {
+    position: fixed;
+    z-index: 1;
+    top: 20%;
+    width: 20%;
+    height: 60%;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .videoModalContent {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .videoModalContent video {
+    width: 100%;
+    height: auto;
+  }
